@@ -1,3 +1,7 @@
+
+/* @import url('./1-gallery.css');
+@import url('./2-form.css'); */
+
 /* Reset styles */
 h1,
 h2,
@@ -33,3 +37,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* ---- body style ---- */
+
+body {
+  background-color: #f5f5f5;
+  margin: 24px;
+  font-family: sans-serif;
+}
+
+
