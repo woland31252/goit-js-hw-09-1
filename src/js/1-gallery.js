@@ -13,6 +13,8 @@ const galleryItem = images
   .join('');
 gallery.innerHTML = galleryItem;
 
-const lightbox = new SimpleLightbox('.gallery a', {
-  /* options */
+new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+  captionPosition: 'bottom',
 });
